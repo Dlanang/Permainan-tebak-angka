@@ -1,0 +1,58 @@
+/* Gaya CSS untuk Tebak Angka */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tampilan Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Kontainer Utama */
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya Umum untuk Teks */
+p {
+    margin-bottom: 10px;
+}
+
+/* Input untuk Menebak Angka */
+input[type="number"] {
+    width: 80px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+/* Tombol Cek */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Gaya untuk Audio Kemenangan */
+#audio {
+    display: none;
+}
